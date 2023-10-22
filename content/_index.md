@@ -29,7 +29,7 @@ sections:
       address:
         street: Department of Statistics, 24-29 St Giles
         city: Oxford
-        postcode: OX1 3JP
+        postcode: OX1 3LB
         country: United Kingdom
       # Automatically link email and phone or display as text?
       autolink: true
