@@ -1,9 +1,11 @@
 ---
-title: "An example preprint / working paper"
+title: "An Additive Noise Approximation to Keller-Segel-Dean-Kawasaki Dynamics Part I: Local Well-Posedness of Paracontrolled Solutions"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
-doi: ""
+- Avi Mayorcas
+date: "22.09.2022"
+doi: "10.48550/arXiv.2207.10711
+"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -14,34 +16,38 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "Submitted"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Using the method of paracontrolled distributions, we show the local well-posedness of an additive noise approximation to the fluctuating hydrodynamics of the Keller-Segel model on the two-dimensional torus. Our approximation is a non-linear, non-local, parabolic-elliptic stochastic PDE with an irregular, heterogeneous space-time noise. As a consequence of the irregularity and heterogeneity, solutions to this equation must be renormalised by a sequence of diverging fields. Using the symmetry of the elliptic Green's function, which appears in our non-local term, we establish that the renormalisation diverges at most logarithmically, an improvement over the linear divergence one would expect by power counting. Similar cancellations also serve to reduce the number of diverging counterterms.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
 tags:
-- Source Themes
-featured: false
+- singular stochastic partial differential equation
+- paracontrolled distributions
+- linear fluctuating hy- drodynamics
+- parabolic-elliptic Keller–Segel model
+- Dean–Kawasaki equation;
+featured: true
 
 links:
 - name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-url_dataset: '#'
-url_poster: '#'
+  url: https://arxiv.org/abs/2207.10711
+url_pdf: https://arxiv.org/pdf/2207.10711.pdf
+url_code: ''
+url_dataset: ''
+url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: '#'
-url_video: '#'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -50,19 +56,18 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+
+projects: []
+
+#projects:
+#- internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+
+slides: ""
+#slides: example
 ---
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://wowchemy.com/docs/content/writing-markdown-latex/).
