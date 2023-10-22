@@ -33,7 +33,7 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
+- name: ArXiv Link
   url: https://arxiv.org/abs/2207.10711
 url_pdf: https://arxiv.org/pdf/2207.10711.pdf
 url_code: ''
