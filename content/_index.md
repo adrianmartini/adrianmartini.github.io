@@ -41,7 +41,7 @@ sections:
     content:
       email: martini@stats.ox.ac.uk
       address:
-        street: 24-29 St Giles
+        street: Department of Statistics, 24-29 St Giles
         city: Oxford
         postcode: OX1 3JP
         country: United Kingdom
