@@ -29,6 +29,7 @@ bio: My research interests include (singular) stochastic partial differential eq
 
 # Interests to show in About widget
 interests:
+  - Website Still Under Construction, Please Come Back Later :) 
   - (Singular) Stochastic Partial Differential Equations
   - Population Dynamics
 
@@ -49,7 +50,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:adrian.martini@sjc.ox.ac.uk
+    link: mailto:martini@stats.ox.ac.uk
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0001-9350-1338
