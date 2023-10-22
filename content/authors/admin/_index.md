@@ -29,7 +29,6 @@ bio: My research interests include (singular) stochastic partial differential eq
 
 # Interests to show in About widget
 interests:
-  - Website Still Under Construction, Please Come Back Later :) 
   - (Singular) Stochastic Partial Differential Equations
   - Population Dynamics
 
