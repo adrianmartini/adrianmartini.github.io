@@ -4,8 +4,7 @@ authors:
 - admin
 - Avi Mayorcas
 date: "22.09.2022"
-doi: "10.48550/arXiv.2207.10711
-"
+doi: "10.48550/arXiv.2207.10711"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-09-22"
@@ -71,3 +70,25 @@ projects: []
 slides: ""
 #slides: example
 ---
+
+We are interested in the fluctuating hydrodynamics of the Keller–Segel model of chemotaxis, the so-called Keller–Segel–Dean–Kawasaki (KSDK) equation:
+
+{{< math >}}
+$$
+\begin{cases}
+  (\partial_{t}-\Delta)\rho = -\nabla\cdot(\rho\nabla c)-\sqrt{\eps}\nabla\cdot(\sqrt{\rho}\boldsymbol{\xi}),\\
+  -\Delta c = \rho.
+\end{cases}
+$$
+{{< /math >}}
+
+This equation is a mesoscopic model for the dynamics of a finite population in which particles disperse a chemical
+
+{{< math >}}
+$c$
+{{< \math >}},
+
+to which other particles react by moving up the chemical gradient. For a survey on the rôle of chemotaxis in biology, see [K. J. Painter. *J. Theor. Biol.* 481, 2019].
+
+Due to the non-linear noise, we do not expect KSDK to be well-posed. Instead, we consider an additive-noise approximation and establish its well-posedness with the theory of paracontrolled calculus [M. Gubinelli, P. Imkeller, N. Perkowski. *Forum Math. Pi*, 3, 2015, Article e6]
+
