@@ -86,7 +86,7 @@ This equation is a mesoscopic model for the dynamics of a finite population in w
 
 {{< math >}}
 $c$
-{{< \math >}},
+{{< /math >}},
 
 to which other particles react by moving up the chemical gradient. For a survey on the rôle of chemotaxis in biology, see [K. J. Painter. *J. Theor. Biol.* 481, 2019].
 
