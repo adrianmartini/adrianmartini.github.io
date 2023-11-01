@@ -28,9 +28,9 @@ summary:
 tags:
 - singular stochastic partial differential equation
 - paracontrolled distributions
-- linear fluctuating hy- drodynamics
+- linear fluctuating hydrodynamics
 - parabolic-elliptic Keller–Segel model
-- Dean–Kawasaki equation;
+- Dean–Kawasaki equation
 featured: true
 
 links:
