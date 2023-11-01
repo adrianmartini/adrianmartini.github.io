@@ -46,7 +46,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'A mollified white noise which determines the birth-death mechanism of a branching Brownian motion '
+  caption: 'The birth-death mechanism of a branching Brownian motion is determined by a mollified white noise'
   focal_point: "Center"
   preview_only: false
 
