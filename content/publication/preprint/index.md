@@ -78,17 +78,34 @@ slides: ""
 We are interested in the fluctuating hydrodynamics of the Keller–Segel model of chemotaxis, the so-called Keller–Segel–Dean–Kawasaki (KSDK) equation:
 
 {{< math >}}
-$$
+\begin{equation*}
 \begin{cases}
-  (\partial_{t}-\Delta)\rho &= -\nabla\cdot(\rho\nabla c)-\sqrt{\varepsilon}\nabla\cdot(\sqrt{\rho}\boldsymbol{\xi}),\\
+  (\partial_{t}-\Delta)\rho &= -\nabla\cdot(\rho\nabla c)-\nabla\cdot(\sqrt{\rho}\boldsymbol{\xi}),\\
   -\Delta c &= \rho,
 \end{cases}
-$$
+\end{equation*}
 {{< /math >}}
 
-where {{< math >}} $\varepsilon$ {{< /math >}} is the noise intensity and {{< math >}} $\boldsymbol{\xi}$ {{< /math >}} denotes a vector-valued space-time white noise.
+where {{< math >}}$\boldsymbol{\xi}${{< /math >}} denotes a vector-valued space-time white noise.
 
-This equation is a mesoscopic model for the dynamics of a finite population in which particles disperse a chemical {{< math >}} $c$ {{< /math >}}, to which other particles react by moving up the chemical gradient. For a survey on the rôle of chemotaxis in biology, see [K. J. Painter. *J. Theor. Biol.* 481, 2019].
+This equation is a mesoscopic model for the dynamics of a finite population in which particles disperse a chemical {{< math >}}$c${{< /math >}}, to which other particles react by moving up the chemical gradient. Due to the non-linear noise, we do not expect KSDK to be well-posed[^1].
 
-Due to the non-linear noise, we do not expect KSDK to be well-posed. Instead, we consider an additive-noise approximation and establish its well-posedness with the theory of paracontrolled calculus [M. Gubinelli, P. Imkeller, N. Perkowski. *Forum Math. Pi*, 3, 2015, Article e6].
+[^1]: V. Konarovskyi. T. Lehmann. M.-K. von Renesse. Electron. Commun. Probab. 24, 2019
+
+ Instead, we consider an additive-noise approximation on the two-dimensional torus {{< math >}}$\mathbb{T}^{2}=\mathbb{R}^{2}/\mathbb{Z}^{2}${{< /math >}} and establish its well-posedness with the theory of paracontrolled calculus[^2].
+ 
+ Let {{< math >}}$\sigma\in C_{T}\mathcal{H}^{2}${{< /math >}} be a space-time inhomogeneity, {{< math >}}$\delta>0${{< /math >}} be the correlation length and {{< math >}}$\boldsymbol{\xi}^{\delta}${{< /math >}} be a mollified space-time white noise. Then there exists a sequence of deterministic functions {{< math >}}$(f^{\delta})_{\delta>0}${{< /math >}} such that the solutions {{< math >}}$\rho^{\delta}${{< /math >}} to
+{{< math >}}
+\begin{equation*}
+\begin{cases}
+  (\partial_{t}-\Delta)\rho &= \nabla\cdot(\rho\nabla\Phi_{\rho}-f^{\delta})+\nabla\cdot(\sigma\boldsymbol{\xi}^{\delta}),\\
+  -\Delta \Phi_{\rho} &= \rho-\langle1,\rho\rangle_{L^{2}(\mathbb{T}^{2})},
+\end{cases}
+\end{equation*}
+{{< /math >}}
+converge as {{< math >}}$\delta\to0${{< /math >}} to a unique limit {{< math >}}$\rho${{< /math >}}.
+
+The sequence of counter-terms {{< math >}}$(f^{\delta})_{\delta>0}${{< /math >}} diverges at most logarithmically as {{< math >}}$\delta\to0${{< /math >}}, whereas naïve power counting would suggest a divergence of order {{< math >}}$\delta^{-1}${{< /math >}}. This improvement is due to non-trivial symmetries in the Fourier multiplier {{< math >}}$\Phi${{< /math >}}. Furthermore by the same argument, {{< math >}}$(f^{\delta})_{\delta>0}${{< /math >}} is identically equal to {{< math >}}$0${{< /math >}} if {{< math >}}$\sigma\equiv1${{< /math >}}, which shows that inhomogeneities may induce divergences that need to be renormalized by fields rather than constants.
+ 
+ [^2]: M. Gubinelli, P. Imkeller, N. Perkowski. *Forum Math. Pi*, 3, 2015, Article e6.
 
