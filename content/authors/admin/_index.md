@@ -52,7 +52,7 @@ social:
     link: mailto:martini@stats.ox.ac.uk
   - icon: arxiv
     icon_pack: ai
-    link: https://arxiv.org/search/math?query=Martini%2C+Adrian&searchtype=author&abstracts=show&order=-announced_date_first&size=50
+    link: https://arxiv.org/a/0000-0001-9350-1338.html
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0001-9350-1338
@@ -70,10 +70,10 @@ social:
 highlight_name: true
 ---
 
-I am a DPhil (PhD) student in the [Probability Group](https://www.stats.ox.ac.uk/probability-home) at the [University of Oxford](https://www.ox.ac.uk). My research focusses on stochastic partial differential equations (SPDEs), in particular their applications to population modelling. 
+I am a DPhil (PhD) student in the [Probability Group](https://www.stats.ox.ac.uk/probability-home) at the [University of Oxford](https://www.ox.ac.uk). My research focuses on stochastic partial differential equations (SPDEs), in particular their applications to population modelling. 
 
-Many SPDEs need to be renormalized, that is, to establish their well-posedness or small-noise behaviour, we need to subtract diverging counter-terms. I am interested in how those counter-terms affect the underlying population.
+Many SPDEs need to be renormalised, that is, to establish their well-posedness or small-noise behaviour, we need to subtract diverging counter-terms. I am interested in how those counter-terms affect the underlying population.
 
-I have previously [studied]({{< relref "/publication/msc_thesis" >}}) how the renormalization of the parabolic Anderson model affects the birth-death mechanism of an underlying branching Brownian motion. In ongoing joint [work]({{< relref "/publication/preprint" >}}), I investigate the fluctuating hydrodynamics of weakly-interacting Langevin diffusions modelling chemotactically interacting particles. 
+I have previously [studied]({{< relref "/publication/msc_thesis" >}}) how the renormalisation of the parabolic Anderson model affects the birth-death mechanism of an underlying branching Brownian motion. In ongoing joint [work]({{< relref "/publication/preprint" >}}), I investigate the fluctuating hydrodynamics of weakly-interacting Langevin diffusions modelling chemotactically interacting particles. 
 
 {{< icon name="download" pack="fas" >}} You can find my curriculum vitae {{< staticref "/uploads/CV.pdf" "newtab" >}}here.{{< /staticref >}}

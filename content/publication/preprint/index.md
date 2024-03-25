@@ -94,7 +94,7 @@ This equation is a mesoscopic model for the dynamics of a finite population in w
 
  Instead, we consider an additive-noise approximation on the two-dimensional torus {{< math >}}$\mathbb{T}^{2}=\mathbb{R}^{2}/\mathbb{Z}^{2}${{< /math >}} and establish its well-posedness with the theory of paracontrolled calculus[^2].
  
- Let {{< math >}}$\sigma\in C_{T}\mathcal{H}^{2}${{< /math >}} be a space-time inhomogeneity, {{< math >}}$\delta>0${{< /math >}} be the correlation length and {{< math >}}$\boldsymbol{\xi}^{\delta}${{< /math >}} be a mollified space-time white noise. Then there exists a sequence of deterministic functions {{< math >}}$(f^{\delta})_{\delta>0}${{< /math >}} such that the solutions {{< math >}}$\rho^{\delta}${{< /math >}} to
+ Let {{< math >}}$\sigma\in C_{T}\mathcal{H}^{2}${{< /math >}} be a space-time inhomogeneity, {{< math >}}$\delta>0${{< /math >}} be the correlation length and {{< math >}}$\boldsymbol{\xi}^{\delta}${{< /math >}} be a mollified space-time white noise. We show that there exists a sequence of deterministic functions {{< math >}}$(f^{\delta})_{\delta>0}${{< /math >}} such that the solutions {{< math >}}$\rho^{\delta}${{< /math >}} to
 {{< math >}}
 \begin{equation*}
 \begin{cases}
@@ -105,7 +105,7 @@ This equation is a mesoscopic model for the dynamics of a finite population in w
 {{< /math >}}
 converge as {{< math >}}$\delta\to0${{< /math >}} to a unique limit {{< math >}}$\rho${{< /math >}}.
 
-The sequence of counter-terms {{< math >}}$(f^{\delta})_{\delta>0}${{< /math >}} diverges at most logarithmically as {{< math >}}$\delta\to0${{< /math >}}, whereas naïve power counting would suggest a divergence of order {{< math >}}$\delta^{-1}${{< /math >}}. This improvement is due to non-trivial symmetries in the Fourier multiplier {{< math >}}$\Phi${{< /math >}}. Furthermore by the same argument, {{< math >}}$(f^{\delta})_{\delta>0}${{< /math >}} is identically equal to {{< math >}}$0${{< /math >}} if {{< math >}}$\sigma\equiv1${{< /math >}}, which shows that inhomogeneities may induce divergences that need to be renormalized by fields rather than constants.
+The sequence of counter-terms {{< math >}}$(f^{\delta})_{\delta>0}${{< /math >}} diverges at most logarithmically as {{< math >}}$\delta\to0${{< /math >}}, whereas naïve power counting would suggest a divergence of order {{< math >}}$\delta^{-1}${{< /math >}}. This improvement is due to non-trivial symmetries in the Fourier multiplier {{< math >}}$\Phi${{< /math >}}. Furthermore by the same argument, {{< math >}}$(f^{\delta})_{\delta>0}${{< /math >}} is identically equal to {{< math >}}$0${{< /math >}} if {{< math >}}$\sigma\equiv1${{< /math >}}, which shows that inhomogeneities may induce divergences that need to be renormalised by fields rather than constants.
  
  [^2]: M. Gubinelli, P. Imkeller, N. Perkowski. *Forum Math. Pi*, 3, 2015, Article e6.
 
