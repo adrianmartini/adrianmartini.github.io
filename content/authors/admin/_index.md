@@ -76,6 +76,4 @@ Many SPDEs need to be renormalized, that is, to establish their well-posedness o
 
 I have previously [studied]({{< relref "/publication/msc_thesis" >}}) how the renormalization of the parabolic Anderson model affects the birth-death mechanism of an underlying branching Brownian motion. In ongoing joint [work]({{< relref "/publication/preprint" >}}), I investigate the fluctuating hydrodynamics of weakly-interacting Langevin diffusions modelling chemotactically interacting particles. 
 
-{{< icon name="triangle-exclamation" pack="fas" >}} I am looking for a <span style= "color: green;">PostDoc Position</span> starting in Autumn '24.
-
 {{< icon name="download" pack="fas" >}} You can find my curriculum vitae {{< staticref "/uploads/CV.pdf" "newtab" >}}here.{{< /staticref >}}
